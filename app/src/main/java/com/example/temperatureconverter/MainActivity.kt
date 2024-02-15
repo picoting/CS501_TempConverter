@@ -77,7 +77,6 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
-
     private fun celsiusToFahrenheit(celsius: Int): Double {
         return celsius * 9.0 / 5 + 32
     }
